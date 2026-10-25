@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Scale Portal</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="hud">
+  <div id="level">LEVEL 1</div>
+  <div id="shards">SHARDS 0/0</div>
+  <div id="scale">SCALE 1.0x</div>
+</div>
+<div id="overlay" class="hidden">
+  <div id="overlayTitle"></div>
+  <div id="overlaySub"></div>
+  <button id="overlayBtn">CONTINUE</button>
+</div>
+<div id="hint">WASD / Arrows to move · Step into portals to change scale</div>
+<script src="game.js"></script>
+</body>
+</html>
